@@ -48,9 +48,8 @@ joystick while also pressing the cross button.
 
 ## Consider donating
 
-- [Ko-fi](https://ko-fi.com/stagvant)
-- [Patreon](https://www.patreon.com/stagvant)
-- [Buy me a Coffee](https://www.buymeacoffee.com/stagvant)
+- [Option1](https://ko-fi.com/stagvant)
+- [Option2](https://buymeacoffee.com/stagvant)
 
 ## License
 
