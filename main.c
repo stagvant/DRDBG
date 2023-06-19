@@ -18,7 +18,7 @@ datawrite.data=dw;
 datawrite.length=s;
 datawrite.write_flags=flag;
 sys_sdk_proc_rw(&datawrite);}
-void* spectrengine(void* args){
+void *spectrengine(void *args){
 procrw(0x0126B8A4,verid1,1,0);
 procrw(0x0126B8A8,verid2,1,0);
 procrw(0x0126B8AA,verid3,1,0);
@@ -41,7 +41,7 @@ procrw(0x007D53C9,DR103C,7,1);}}
 scePthreadExit(NULL);
 return NULL;}
 int32_t attr_module_hidden module_start(size_t argc,const void *args){
-if (sys_sdk_proc_info(&procInfo)){return 0;}
+if(sys_sdk_proc_info(&procInfo)){return 0;}
 memcpy(auth, procInfo.titleid, sizeof(auth));
 if(auth[4]=='0'&&auth[5]=='8'&&auth[6]=='4'&&auth[7]=='3'&&auth[8]=='2'){
 scePthreadCreate(&engine, NULL, spectrengine, NULL, "spectrengine");}
@@ -52,5 +52,5 @@ scePthreadCreate(&engine, NULL, spectrengine, NULL, "spectrengine");}
 else{if(auth[4]=='0'&&auth[5]=='8'&&auth[6]=='6'&&auth[7]=='9'&&auth[8]=='2'){
 scePthreadCreate(&engine, NULL, spectrengine, NULL, "spectrengine");}}}}
 return 0;}
-int32_t attr_module_hidden module_stop(size_t argc, const void *args){
+int32_t attr_module_hidden module_stop(size_t argc,const void *args){
 return 0;}
