@@ -37,14 +37,15 @@ joystick while also pressing the cross button.
 
 ## Toolchains used
 
-- [LLVM 10](https://llvm.org/)
+- [LLVM 10](https://github.com/llvm/llvm-project)
 - [GoldHEN_Plugins_SDK](https://github.com/GoldHEN/GoldHEN_Plugins_SDK)
 - [OpenOrbis-PS4-Toolchain](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain)
 
-## Credits
+## Toolchain authors
 
-- [Everyone at OpenOrbis Team](https://github.com/OpenOrbis)
-- [Everyone at Goldhen Team](https://github.com/Goldhen)
+- [The LLVM Team](https://github.com/llvm)
+- [The Goldhen Team](https://github.com/Goldhen)
+- [The OpenOrbis Team](https://github.com/OpenOrbis)
 
 ## Consider donating
 
